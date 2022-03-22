@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 15px;
+}
+body {
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+}
+.container {
+	width: 810px;
+	margin: 0 auto;
+}
+.main {
+	margin-bottom: 63px;
+}
+.title {
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 1.3;
+	color: #1e212c;
+	margin-bottom: 26px;
+}
+.info {
+	margin-bottom: 20px;
+}
+.date,
+.time {
+	display: inline-block;
+	font-weight: 400;
+	line-height: 1.6;
+	color: #787a80;
+	padding-left: 24px;
+}
+.date {
+	display: inline-block;
+	background: url("../img/date.svg") 0 center no-repeat;
+	margin-right: 24px;
+}
+.time {
+	display: inline-block;
+	background: url("../img/time.svg") 0 center no-repeat;
+}
+.social {
+	margin-bottom: 40px;
+}
+.share {
+	font-weight: 700;
+	line-height: 1.6;
+	margin-right: 12px;
+}
+
+.icon {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin-right: 12px;
+}
+.facebook {
+	background-image: url("../img/facebook.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.twitter {
+	background: url("../img/twitter.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.linkedin {
+	background: url("../img/linked-in.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-right: 0px;
+}
+
+.image {
+	margin-bottom: 60px;
+}
+.bold {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.5;
+	color: #1e212c;
+	margin-bottom: 24px;
+}
+
+.normal {
+	font-weight: 400;
+	line-height: 1.6;
+	color: #424551;
+	margin-bottom: 24px;
+}
+.normal1 {
+	margin-bottom: 48px;
+}
+.bold1 {
+	background: url("../img/quotes.svg") 0 0 no-repeat;
+	padding-left: 58px;
+	margin-bottom: 48px;
+}
+.normal2 {
+	margin-bottom: 24px;
+}
+.list {
+	margin-bottom: 24px;
+}
+.item-list {
+	background: url("../img/done.svg") 0 center no-repeat;
+	min-height: 16px;
+	font-weight: 400;
+	line-height: 1.6;
+	color: #424551;
+
+	padding-left: 32px;
+}
+.item-list li:not(:last-child) {
+	margin-bottom: 4px;
+}
+p.normal:last-child {
+	margin-bottom: 0;
+}
+.social:last-child {
+	margin-bottom: 0;
+}

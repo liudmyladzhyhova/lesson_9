@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Shizuru&display=swap");
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 15px;
+}
+body {
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	background-color: rgb(213, 233, 252);
+	background-size: cover;
+	line-height: 1;
+}
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 15px;
+}
+.main {
+	margin-bottom: 50px;
+	font-size: 0;
+}
+.title {
+	font-size: 46px;
+	text-align: center;
+	letter-spacing: 10px;
+	margin-bottom: 40px;
+	color: rgb(158, 92, 219);
+}
+
+.block-one {
+	display: inline-block;
+	background: url("../img/turnip.jpg") 0 0 no-repeat;
+	height: 373px;
+	width: 390px;
+	visibility: visible;
+}
+.block-two {
+	display: inline-block;
+	background: url("../img/granddad.jpg") center no-repeat;
+	height: 343px;
+	width: 206px;
+	visibility: hidden;
+}
+
+.block-one:hover + .block-two,
+.block-two:hover {
+	visibility: visible;
+}
+.block-three {
+	background: url("../img/grandmom.jpg") center no-repeat;
+	height: 303px;
+	width: 206px;
+	margin-left: 390px;
+	visibility: hidden;
+}
+.block-two:hover + .block-three,
+.block-three:hover {
+	visibility: visible;
+}
+.block-four {
+	/* display: inline-block; */
+	background: url("../img/grandchild.jpg") center no-repeat;
+	height: 262px;
+	width: 152px;
+	margin-top: -262px;
+	margin-left: 596px;
+	visibility: hidden;
+}
+.block-three:hover + .block-four,
+.block-four:hover {
+	visibility: visible;
+}
+.block-five {
+	/* display: inline-block; */
+	background: url("../img/dog.jpg") center no-repeat;
+	height: 240px;
+	width: 134px;
+	margin-left: 748px;
+	margin-top: -80px;
+	visibility: hidden;
+}
+.block-four:hover + .block-five,
+.block-five:hover {
+	visibility: visible;
+}
+.block-six {
+	/* display: inline-block; */
+	background: url("../img/cat.jpg") center no-repeat;
+	height: 209px;
+	width: 133px;
+	margin-left: 882px;
+	margin-top: -209px;
+	visibility: hidden;
+}
+.block-five:hover + .block-six,
+.block-six:hover {
+	visibility: visible;
+}
+.block-seven {
+	/* display: inline-block; */
+	background: url("../img/mouse.jpg") center no-repeat;
+	height: 175px;
+	width: 123px;
+	margin-left: 1015px;
+	margin-top: -175px;
+	visibility: hidden;
+}
+.block-six:hover + .block-seven,
+.block-seven:hover {
+	visibility: visible;
+}
+.block-eight {
+	display: inline-block;
+	background: #fff;
+	height: 100px;
+	width: 123px;
+	margin-left: 1015px;
+	visibility: hidden;
+}
+.block-seven:hover + .block-eight,
+.block-eight:hover {
+	visibility: visible;
+}
+.block-nine {
+	display: inline-block;
+	background: #fff;
+	width: 400px;
+	height: 20px;
+	margin-top: -20px;
+	margin-left: 615px;
+	visibility: hidden;
+}
+.block-eight:hover + .block-nine,
+.block-nine:hover {
+	visibility: visible;
+}
+.button {
+	display: inline-block;
+	background: #000;
+	width: 170px;
+	height: 60px;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 20px;
+	padding: 20px;
+	margin-top: -50px;
+	margin-left: 445px;
+	visibility: hidden;
+}
+.button:active {
+	background-color: rgb(158, 92, 219);
+}
+.block-nine:hover + .button,
+.button:hover {
+	visibility: visible;
+}
+
+.image {
+	text-align: center;
+	border-radius: 20px;
+	margin-left: 40px;
+	display: none;
+}
+
+.button:hover + .image,
+.image:hover {
+	display: block;
+}
+
+.footer {
+	text-align: center;
+}
+.link {
+	display: inline-block;
+	font-size: 40px;
+	font-weight: 700;
+}
